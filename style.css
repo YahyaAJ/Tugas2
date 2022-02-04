@@ -1,0 +1,125 @@
+*{
+    padding: 0;
+    margin: 0;
+    color: aliceblue;
+}
+nav {
+    display: flex;
+    border: 1px solid black;
+    justify-content: space-around;
+    padding-top: 10px;
+    padding-right: 20px;
+    background-color: rgba( 0, 0, 0, 0.4);
+    color: aliceblue;
+}
+ul li {
+    display: inline-block;
+    padding: 0px;
+}
+input {
+    display: flex;
+    height: 30px;
+    width: 400px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding-left: 6px;
+    padding-right: 6px;
+    justify-content: center;
+}
+h1{
+    margin-top: 5px;
+}
+body {
+    background-image: url(wallpape.jpg);
+    background-size: cover;
+}
+img {
+    width: 160px;
+    height: 50px;
+    margin-right: 100px;
+}
+ul {
+    display: inline;
+    margin: 0;
+    padding: 0;
+  }
+  ul li {display: inline-block;}
+  ul li:hover {background: #555;}
+  ul li:hover ul {display: block;}
+  ul li ul {
+    position: absolute;
+    width: 200px;
+    display: none;
+  }
+  ul li ul li { 
+    background: #555; 
+    display: block; 
+  }
+  ul li ul li a {display:block !important;} 
+  ul li ul li:hover {background: #666;}
+  div a {
+    text-decoration: none;
+    color: white;
+    padding: 15px;
+    display:inline-block;
+  }
+  .ala {
+      border: 1px;
+
+  }
+ .mt1 {
+     border: 1px solid black;
+     width: 500px;
+     height: 300px;
+     margin-left: 50px;
+     margin-top: 50px;
+     background-color: rgba( 0, 0, 0, 0.7);
+     padding: 30px;
+     justify-content: space-around;
+ }
+ .gmb1 {
+    border: 1px solid black;
+    width: 500px;
+    height: 300px;
+    margin-left: 50px;
+    margin-top: 50px;
+    background-color: rgba( 0, 0, 0, 0.7);
+    padding: 30px;
+ }
+header{
+    display: flex;
+    justify-content: space-around;
+    margin-right: 50px;
+}
+.mn1 {
+    border: 1px solid black;
+     width: 350px;
+     height: 300px;
+     margin-left: 50px;
+     margin-top: 50px;
+     background-color: rgba( 0, 0, 0, 0.7);
+     padding: 30px;
+     justify-content: space-around;
+}
+.mn2 {
+    border: 1px solid black;
+     width: 350px;
+     height: 300px;
+     margin-left: 50px;
+     margin-top: 50px;
+     background-color: rgba( 0, 0, 0, 0.7);
+     padding: 30px;
+}
+.mn3 {
+    border: 1px solid black;
+     width: 350px;
+     height: 300px;
+     margin-left: 50px;
+     margin-top: 50px;
+     background-color: rgba( 0, 0, 0, 0.7);
+     padding: 30px;
+}
+.mnmn {
+    display: flex;
+    margin-right: 50px;
+}
