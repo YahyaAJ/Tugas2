@@ -1,56 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>FlexBox</title>
-    <link rel="stylesheet" href="style.css" />
-    <script src="https://kit.fontawesome.com/e515af56ee.js" crossorigin="anonymous"></script>
-    
-  </head>
-  <body>
-    <nav>
-      <img src="logo.png" alt="logo">
-      <input type="search" placeholder="Search"/>
-      <div>
-        <ul class="pound">
-          <li><a href="#">Home</a></li> |
-          <li><a href="#">About</a></li> |
-          <li><a href="#">Contact</a></li> |
-          <li>
-            <a href="#"><i class="fas fa-list"></i></a>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=nav., initial-scale=1.0">
+    <title>Responsive</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Akaya+Telivigala&display=swap" rel="stylesheet">
+</head>
+<body style="max-width: 1800px;">
+    <div>
+        <!-- Navbar Start -->
+        <nav class="navbar">
+            <h1>ALJNDY</h1>
+            <input type="search" placeholder="Search">
             <ul>
-              <li><a href="#"><i class="fab fa-github"></i>   | GitHub</a></li>
-              <li><a href="#"><i class="fab fa-facebook"></i>   | Facebook</a></li>
-              <li><a href="#"><i class="fab fa-instagram"></i>  |  Instagram</a></li>
-              <li><a href="#"><i class="fab fa-discord"></i></i> |  Discord</a></li>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
             </ul>
-         </li>
-       </ul>
-      </div>
-    </nav>
-    <!-- Nav -->
-    <header>
-        <div class="mt1">
-          <h1></h1>
-        </div>
-        <div class="gmb1">
-      </div>
-    </header>
-    <main>
-      <div class="mnmn">
-        <div class="mn1">
-          <h1></h1>
-        </div>
-        <div class="mn2">
-          <h1></h1>
-        </div>
-        <div class="mn3">
-          <h1></h1>
-        </div>
-      </div>
-    </main>
-    <br>
-  </body>
+        </nav>
+        <nav class="mobile-header">
+            <h1>ALJNDY</h1>
+        </nav>
+        <!-- Navbar End -->
+
+        <!-- Header Start -->
+        <header>
+            <div class="warp-box">
+                <div class="box-kiri">
+                    <div class="image"></div>
+                    <div class="title"></div>
+                    <div class="description"></div>
+                </div>
+                <div class="box-kanan">
+                    <div class="image"></div>
+                    <div class="title"></div>
+                    <div class="description"></div>
+                </div>
+            </div>
+        </header>
+        <!-- Header End -->
+
+        <!-- Main Start -->
+        <main>
+            <div class="main-top">
+                <div class="mt-kiri">
+                    <div class="image"></div>
+                    <div class="title"></div>
+                    <div class="description"></div>
+                </div>
+                <div class="mt-mid">
+                    <div class="image"></div>
+                    <div class="title"></div>
+                    <div class="description"></div>
+                </div>
+                <div class="mt-kanan">
+                    <div class="image"></div>
+                    <div class="title"></div>
+                    <div class="description"></div>
+                </div>
+            </div>
+        </main>
+        <!-- Main End -->
+        <footer>
+            <div class="footer">
+                <h3>Pondok Programmer</h3>
+            <p>&copy;2022 PondokIT | Design by <span> _aljndy_</span></p>
+            </div>
+        </footer>
+    </div>
+</body>
 </html>

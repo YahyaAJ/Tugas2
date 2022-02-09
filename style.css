@@ -1,125 +1,149 @@
 *{
-    padding: 0;
     margin: 0;
-    color: aliceblue;
+    padding: 0;
 }
-nav {
-    display: flex;
-    border: 1px solid black;
-    justify-content: space-around;
-    padding-top: 10px;
-    padding-right: 20px;
-    background-color: rgba( 0, 0, 0, 0.4);
-    color: aliceblue;
-}
-ul li {
-    display: inline-block;
-    padding: 0px;
-}
-input {
-    display: flex;
-    height: 30px;
-    width: 400px;
-    margin-top: 5px;
-    margin-bottom: 5px;
-    padding-left: 6px;
-    padding-right: 6px;
-    justify-content: center;
-}
-h1{
-    margin-top: 5px;
-}
-body {
-    background-image: url(wallpape.jpg);
+body{
+    background-image: url(wallpaper.jpg);
     background-size: cover;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
 }
-img {
-    width: 160px;
-    height: 50px;
-    margin-right: 100px;
-}
-ul {
-    display: inline;
-    margin: 0;
-    padding: 0;
-  }
-  ul li {display: inline-block;}
-  ul li:hover {background: #555;}
-  ul li:hover ul {display: block;}
-  ul li ul {
-    position: absolute;
-    width: 200px;
-    display: none;
-  }
-  ul li ul li { 
-    background: #555; 
-    display: block; 
-  }
-  ul li ul li a {display:block !important;} 
-  ul li ul li:hover {background: #666;}
-  div a {
-    text-decoration: none;
-    color: white;
-    padding: 15px;
-    display:inline-block;
-  }
-  .ala {
-      border: 1px;
 
-  }
- .mt1 {
-     border: 1px solid black;
-     width: 500px;
-     height: 300px;
-     margin-left: 50px;
-     margin-top: 50px;
-     background-color: rgba( 0, 0, 0, 0.7);
-     padding: 30px;
-     justify-content: space-around;
- }
- .gmb1 {
-    border: 1px solid black;
+/* Navbar Start */
+.navbar {
+    display: flex;
+    padding: 16px;
+    justify-content: space-between;
+    /* border: 1px solid black; */
+    padding-right: 20px;
+    padding-left: 20px;
+}
+.navbar h1 {
+    cursor: pointer;
+    color: #fff;
+    margin-right: 15px;
+    font-family: 'Akaya Telivigala', cursive;
+}
+.navbar input{
     width: 500px;
-    height: 300px;
-    margin-left: 50px;
-    margin-top: 50px;
-    background-color: rgba( 0, 0, 0, 0.7);
-    padding: 30px;
- }
-header{
+    height: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.navbar ul{
+    display: flex;
+    width: 40%;
+    list-style: none;
+    justify-content: space-evenly;
+}
+.navbar ul li{
+    margin-right: 5px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+}
+.mobile-header{
+    display: none;
+}
+/* Navbar End */
+
+/* Header Start*/
+.warp-box{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 30px;
+}
+.box-kiri{
+    border: 1px solid;
+    border-radius: 25px;
+    height: 350px;
+    width: 550px;
+    margin: 0 10px;
+    background-color: rgba( 0, 0, 0, 0.5);
+}
+.box-kanan{
+    border: 1px solid;
+    border-radius: 25px;
+    height: 350px;
+    width: 550px;
+    margin: 0 10px;
+    background-color: rgba( 0, 0, 0, 0.5);
+}
+/* Header Start */
+
+/* Main Start */
+.main-top{
     display: flex;
     justify-content: space-around;
-    margin-right: 50px;
+    width: 100%;
+    margin-top: 30px;
 }
-.mn1 {
-    border: 1px solid black;
-     width: 350px;
-     height: 300px;
-     margin-left: 50px;
-     margin-top: 50px;
-     background-color: rgba( 0, 0, 0, 0.7);
-     padding: 30px;
-     justify-content: space-around;
+.mt-kiri{
+    border: 1px solid;
+    border-radius: 25px;
+    height: 350px;
+    width: 550px;
+    margin: 15px 20px;
+    background-color: rgba( 0, 0, 0, 0.5);
 }
-.mn2 {
-    border: 1px solid black;
-     width: 350px;
-     height: 300px;
-     margin-left: 50px;
-     margin-top: 50px;
-     background-color: rgba( 0, 0, 0, 0.7);
-     padding: 30px;
+.mt-mid{
+    border: 1px solid;
+    border-radius: 25px;
+    height: 350px;
+    width: 550px;
+    margin: 15px 20px;
+    background-color: rgba( 0, 0, 0, 0.5);
 }
-.mn3 {
-    border: 1px solid black;
-     width: 350px;
-     height: 300px;
-     margin-left: 50px;
-     margin-top: 50px;
-     background-color: rgba( 0, 0, 0, 0.7);
-     padding: 30px;
+.mt-kanan{
+    border: 1px solid;
+    border-radius: 25px;
+    height: 350px;
+    width: 550px;
+    margin: 15px 20px;
+    background-color: rgba( 0, 0, 0, 0.5);
 }
-.mnmn {
-    display: flex;
-    margin-right: 50px;
+/* Main End */
+
+.footer{
+    text-align: center;
+    padding: 20px;
+    background-color: #000;
+    color: #fff;
+}
+span{
+    color: grey;
+}
+
+@media only screen and (max-width:800px) {
+    .navbar{
+        display: none;
+    }
+    .mobile-header{
+        display: block;
+        text-align: center;
+        margin-top: 30px;
+        color: #fff;
+        font-family: 'Akaya Telivigala', cursive;
+    }
+    .warp-box{
+        flex-direction: column;
+        align-items: center;
+    }
+    .box-kanan{
+        margin-top: 20px;
+    }
+    .main-top{
+        flex-direction: column;
+        align-items: center;
+    }
+    .mt-mid{
+        margin-top: 20px;
+    }
+    .mt-kanan{
+        margin-top: 20px;
+    }
 }
